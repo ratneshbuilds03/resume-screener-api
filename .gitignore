@@ -14,5 +14,7 @@ test.db
 # Keep tests tracked for CI and portfolio validation
 !tests/
 !tests/**
+tests/**/__pycache__/
+tests/**/*.pyc
 !/.github/
 !/.github/**
