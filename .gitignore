@@ -1,0 +1,18 @@
+.env
+.env.*
+!.env.example
+venv/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.db
+test.db
+.git/
+.github/
+
+# Keep tests tracked for CI and portfolio validation
+!tests/
+!tests/**
+!/.github/
+!/.github/**

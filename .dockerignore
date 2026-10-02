@@ -1,0 +1,18 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+.env
+.env.*
+.git/
+.pytest_cache/
+*.db
+test.db
+.git
+
+# Keep source and tests for Docker builds and validation
+!tests/
+!tests/**
+!.github/
+!.github/**
+
